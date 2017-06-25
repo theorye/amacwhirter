@@ -65,57 +65,6 @@ body {
 
 
 /*
- * Header
- */
-.masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.masthead-nav > li {
-  display: inline-block;
-}
-.masthead-nav > li + li {
-  margin-left: 20px;
-}
-.masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
-  border-bottom: 2px solid transparent;
-}
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
-  background-color: transparent;
-  border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255,255,255,.25);
-}
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
-}
-
-@media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
-}
-
-.masthead {
-    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    transition: background .5s ease-in-out, padding .5s ease-in-out;
-}
-
-/*
  * Cover
  */
 
@@ -143,30 +92,17 @@ body {
  */
 
 @media (min-width: 768px) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
   }
   /* Handle the widths */
-  .masthead,
-  .mastfoot,
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
 
 @media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
   .cover-container {
     width: 700px;
   }
@@ -190,20 +126,24 @@ body {
     text-decoration: none;
 }
 
+/*
+ * Header
+ */
 /* Hamburger Menu */
 
 header{
+  position: absolute;
 	width:100%;
-	background:black;
+	background:transparent;
 	height:50px;
 	line-height:60px;
 }
 
 .hamburger{
   background:none;
-  position:absolute;
+  position:fixed;
   top:0;
-  right:0;
+  right:30px;
   line-height:45px;
   padding:5px 15px 0px 15px;
   color:#999;
@@ -216,9 +156,9 @@ header{
 }
 .cross{
   background:none;
-  position:absolute;
+  position:fixed;
   top:0px;
-  right:0;
+  right:30px;
   padding:7px 15px 0px 15px;
   color:#999;
   border:0;
@@ -229,7 +169,7 @@ header{
   outline:none;
   z-index:10000000000000;
 }
-.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+.menu{z-index:1; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:fixed; text-align:center; font-size:12px;}
 .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
 .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
 .menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
