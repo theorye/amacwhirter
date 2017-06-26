@@ -31,7 +31,7 @@ h1 {
 html,
 body {
   height: 100%;
-  background-color: black;
+  background-color: #121212;
 }
 body {
   color: #fff;
@@ -40,12 +40,12 @@ body {
 }
 
 .container {
-  background-color: black;
+  background-color: #121212;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
-  background-image: url("../images/background2.png");
+  background-image: url("../images/background3.jpg");
   background-size: cover;
   display: table;
   width: 100%;
@@ -61,11 +61,6 @@ body {
 .cover-container {
   margin-right: auto;
   margin-left: auto;
-}
-
-/* Padding for spacing */
-.inner {
-  padding: 30px;
 }
 
 
@@ -86,6 +81,12 @@ body {
  * Footer
  */
 
+.footer {
+  background-image: url("../images/background3.jpg");
+  background-size: cover;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
 
 
 
@@ -112,9 +113,11 @@ body {
 
 .devicon {
   font-size: 50px;
-  margin: 25px;
+  margin: 40px;
   line-height: 1.5;
 }
+
+.desc {display: none;}
 
 .well {
   background: #1a1a1a;
@@ -189,7 +192,7 @@ header{
 span{padding-left:20px;}
 a{color:#336699;}
 
-.page-header, h2, h3 {
+.page-header, h2, h3, h1 {
   font-family: 'Stardos Stencil', cursive;
 }
 
@@ -197,6 +200,54 @@ a{color:#336699;}
   padding-top: 130px;
 }
 
+.adm {
+  color: orangered;
+}
+
+.sub {
+  color: white;
+}
+
+.text-muted {
+    color: orangered;
+    font-size: 25px;
+}
+
+/*
+ * Contact Icons
+ */
+
+.fa-github, .fa-linkedin-square, .fa-stack-overflow, .fa-file-pdf-o, .fa-envelope-o {
+  background:none;
+  position:fixed;
+  right:30px;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  border:0;
+  font-size:2.5em;
+  outline:none;
+  z-index:10000000000000;
+  color: steelblue;
+}
+.fa-github {
+  bottom:280px;
+}
+
+.fa-linkedin-square {
+  bottom:230px;
+}
+
+.fa-stack-overflow {
+  bottom:180px;
+}
+
+.fa-file-pdf-o {
+  bottom:130px;
+}
+
+.fa-envelope-o{
+  bottom:80px;
+}
 
 /*
  * Sections
