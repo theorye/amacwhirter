@@ -45,7 +45,7 @@ body {
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
-  background-image: url("../images/background3.jpg");
+  background-image: url("../images/cover.png");
   background-size: cover;
   display: table;
   width: 100%;
@@ -82,34 +82,15 @@ body {
  */
 
 .footer {
-  background-image: url("../images/background3.jpg");
+  background-image: url("../images/footer.jpg");
   background-size: cover;
   padding-bottom: 30px;
   padding-top: 30px;
 }
 
-
-
 /*
- * Affix and center
+ * Icons
  */
-
-@media (min-width: 768px) {
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-  /* Handle the widths */
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
-}
-
-@media (min-width: 992px) {
-  .cover-container {
-    width: 700px;
-  }
-}
 
 .devicon {
   font-size: 50px;
@@ -252,3 +233,25 @@ a{color:#336699;}
 /*
  * Sections
  */
+
+
+ /*
+  * Media - Affix and Center
+  */
+
+ @media (min-width: 768px) {
+   /* Start the vertical centering */
+   .site-wrapper-inner {
+     vertical-align: middle;
+   }
+   /* Handle the widths */
+   .cover-container {
+     width: 100%; /* Must be percentage or pixels for horizontal alignment */
+   }
+ }
+
+ @media (min-width: 992px) {
+   .cover-container {
+     width: 700px;
+   }
+ }
