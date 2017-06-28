@@ -37,20 +37,20 @@
         $("#showImg").empty();
         $("#showTitle").empty();
         $("#showBody").empty();
+        $("#showTech").empty();
         var image = $(this).attr("src");
         var title = $(this).data("title");
         var body = $(this).data("text");
+        var tech = $(this).data("tech");
+        var link = $(this).data("link");
+        var git = $(this).data("git");
         $("#showImg").append("<img class='img-responsive' src='" + image + "' />");
         $("#showTitle").html(title);
-        $("#showBody").append(body);
+        $("#showBody").append("<h3>Description:</h3>" + body);
+        $("#showTech").append("<h3>Technologies Used:</h3>" + tech);
+        $("#previewSite").attr("href", link);
+        $("#previewGit").attr("href", git);
     });
-
-    $('#modal1').on('click', function(event) {
-        event.preventDefault();
-        $("#showTech").empty();
-        $("#showTech").append();
-    });
-
 
 //========== TYPEWRITER FOR HOME COVER PAGE =============
 
