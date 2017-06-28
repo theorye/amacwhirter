@@ -1,4 +1,5 @@
-$(document).ready(function() {
+
+
 
 //========== HAMBURGER MENU =============
 
@@ -43,6 +44,13 @@ $(document).ready(function() {
         $("#showTitle").html(title);
         $("#showBody").append(body);
     });
+
+    $('#modal1').on('click', function(event) {
+        event.preventDefault();
+        $("#showTech").empty();
+        $("#showTech").append();
+    });
+
 
 //========== TYPEWRITER FOR HOME COVER PAGE =============
 
@@ -173,5 +181,3 @@ typewriter.type();
         css.type = "text/css";
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
-
-});

@@ -18,7 +18,7 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 // ==============================Require routing========================================
 
-require("./app/routing/htmlRoutes")(app);
+require("./app/controllers/htmlRoutes")(app);
 
 // =========================Starts the server to begin listening================================
 
