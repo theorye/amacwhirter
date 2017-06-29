@@ -40,6 +40,7 @@ body {
 
 .container {
   background-color: #121212;
+  width: 80%;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
