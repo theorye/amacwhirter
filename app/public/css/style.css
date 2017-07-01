@@ -352,7 +352,7 @@ h3 {
   }
 
   #typewriter {
-    margin-left: -120px;
+    margin-left: -150px;
   }
 
   .cover-container {
@@ -360,11 +360,11 @@ h3 {
   }
 
   .hamburger, .cross {
-    background-color: gray;
     opacity: 0.6;
   }
 
   .modal {
+    padding-top: 100px;
     max-height: 70%;
   }
 
