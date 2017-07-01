@@ -334,8 +334,11 @@ h3 {
   }
 
   .hamburger, .cross {
+    top: 0px;
+    right: 0px;
     opacity: 0.6;
   }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -359,6 +362,8 @@ h3 {
   }
 
   .hamburger, .cross {
+    top: 0px;
+    right: 0px;
     opacity: 0.6;
   }
 
