@@ -334,7 +334,6 @@ h3 {
   }
 
   .hamburger, .cross {
-    background-color: gray;
     opacity: 0.6;
   }
 }
@@ -365,7 +364,7 @@ h3 {
 
   .modal {
     padding-top: 100px;
-    max-height: 70%;
+    max-height: 90%;
   }
 
 }
