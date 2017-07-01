@@ -45,7 +45,7 @@ body {
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
-  background: url("../images/cover.png") no-repeat center center fixed;
+  background: url("../images/cover3.png") no-repeat center center fixed;
   background-size:cover;
   display: table;
   width: 100%;
@@ -119,10 +119,9 @@ header{
 .hamburger{
   background:none;
   position:fixed;
-  top:0;
+  top:10px;
   right:30px;
   line-height:45px;
-  padding:5px 15px 0px 15px;
   color:#999;
   border:0;
   font-size:2.5em;
@@ -134,9 +133,8 @@ header{
 .cross{
   background:none;
   position:fixed;
-  top:0px;
+  top:10px;
   right:30px;
-  padding:7px 15px 0px 15px;
   color:#999;
   border:0;
   font-size:5em;
@@ -320,3 +318,57 @@ h3 {
      width: 700px;
    }
  }
+
+
+@media screen and (max-width: 768px) {
+  /*
+   * Contact Icons
+   */
+
+  .fa-github, .fa-linkedin-square, .fa-stack-overflow, .fa-file-pdf-o, .fa-envelope-o {
+    position:relative;
+    display: inline;
+    bottom: 30px;
+    left: 3px;
+  }
+
+  #typewriter {
+    margin-left: -100px;
+  }
+
+  .cover-container {
+    margin-bottom: 400px;
+  }
+
+  .hamburger, .cross {
+    background-color: gray;
+    opacity: 0.6;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /*
+   * Contact Icons
+   */
+
+  .fa-github, .fa-linkedin-square, .fa-stack-overflow, .fa-file-pdf-o, .fa-envelope-o {
+    position:relative;
+    display: inline;
+    bottom: 30px;
+    left: 3px;
+  }
+
+  #typewriter {
+    margin-left: -100px;
+  }
+
+  .cover-container {
+    margin-bottom: 400px;
+  }
+
+  .hamburger, .cross {
+    background-color: gray;
+    opacity: 0.6;
+  }
+
+}
