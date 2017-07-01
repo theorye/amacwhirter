@@ -191,13 +191,6 @@ a{color:#336699;}
   opacity: 0.7;
 }
 
-
-/*.cover-name {
-  text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
-  font-family: 'Monda', sans-serif;
-  opacity: 0.8;
-}*/
-
 h3 {
   font-family: 'Crete Round', serif;
 }
@@ -359,7 +352,7 @@ h3 {
   }
 
   #typewriter {
-    margin-left: -100px;
+    margin-left: -120px;
   }
 
   .cover-container {
@@ -369,6 +362,10 @@ h3 {
   .hamburger, .cross {
     background-color: gray;
     opacity: 0.6;
+  }
+
+  .modal {
+    max-height: 70%;
   }
 
 }
