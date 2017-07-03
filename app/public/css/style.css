@@ -262,18 +262,14 @@ h3 {
   color: steelblue;
 }
 .fa-github {
-  bottom:320px;
-}
-
-.fa-linkedin-square {
   bottom:270px;
 }
 
-.fa-stack-overflow {
+.fa-linkedin-square {
   bottom:220px;
 }
 
-.fa-file-pdf-o {
+.fa-stack-overflow {
   bottom:170px;
 }
 
@@ -318,7 +314,7 @@ h3 {
    * Contact Icons
    */
 
-  .fa-github, .fa-linkedin-square, .fa-stack-overflow, .fa-file-pdf-o, .fa-envelope-o {
+  .fa-github, .fa-linkedin-square, .fa-stack-overflow, .fa-envelope-o {
     position:relative;
     display: inline;
     bottom: 30px;
@@ -346,7 +342,7 @@ h3 {
    * Contact Icons
    */
 
-  .fa-github, .fa-linkedin-square, .fa-stack-overflow, .fa-file-pdf-o, .fa-envelope-o {
+  .fa-github, .fa-linkedin-square, .fa-stack-overflow, .fa-envelope-o {
     position:relative;
     display: inline;
     bottom: 30px;
